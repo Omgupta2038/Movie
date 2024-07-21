@@ -1,0 +1,143 @@
+@import "../../globals.scss";
+
+.topbar {
+    background-color: #F7FAFC;
+    height: 5em;
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+
+    .topbar__left__section {
+        margin-left: 8.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .topbar__img__container {
+            margin: auto 0px;
+
+            .logo {
+                height: 3rem;
+            }
+        }
+
+        .topbar__left__navbar {
+            ul {
+                display: flex;
+                list-style: none;
+                padding: 0px 1rem;
+
+                li {
+                    a {
+                        padding: 0.6rem;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: bolder;
+                        font-size: 1rem;
+                        text-decoration: none;
+                        color: black;
+                        transition: all 0.3s ease;
+
+                        &:link {
+                            color: black;
+                        }
+
+                        &:hover {
+                            color: rgb(143, 89, 204);
+                            text-decoration: underline;
+                            text-underline-offset: 0.5rem;
+                        }
+
+                        &:active {
+                            color: rgb(143, 89, 204);
+                        }
+                    }
+                }
+            }
+        }
+
+        .topbar__right__navbar {
+            margin-left: auto;
+
+            ul {
+                display: flex;
+                list-style: none;
+                padding: 0px 1rem;
+
+                li {
+                    a {
+                        padding: 0.6rem;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: bolder;
+                        font-size: 1rem;
+                        text-decoration: none;
+                        color: black;
+                        transition: all 0.3s ease;
+
+                        &:link {
+                            color: black;
+                        }
+
+                        &:hover {
+                            color: rgb(143, 89, 204);
+                            text-decoration: underline;
+                            text-underline-offset: 0.5rem;
+                        }
+
+                        &:active {
+                            color: rgb(143, 89, 204);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .topbar__right__section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+
+        ul {
+            display: flex;
+            list-style: none;
+            padding: 0px 1rem;
+
+            li {
+                a {
+                    background-color: #4CAF50;
+                    /* Green */
+                    border-radius: 5px;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 1rem;
+                    padding: 0.5rem;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: bolder;
+                    color: white;
+                    margin-left: 1.5rem;
+
+                    &:link {
+                        color: black;
+                    }
+
+                    &:hover {
+                        color: rgb(143, 89, 204);
+                        text-decoration: underline;
+                        text-underline-offset: 0.5rem;
+                    }
+
+                    &:active {
+                        color: rgb(143, 89, 204);
+                    }
+                }
+            }
+        }
+    }
+
+}

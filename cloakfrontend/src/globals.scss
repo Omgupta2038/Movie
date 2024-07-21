@@ -1,0 +1,34 @@
+:root {
+    --background-light: #fff;
+    --background-dark: #000000;
+    --text-light: #000;
+    --text-dark: #fee105;
+    --button-light: #0713f4;
+    --button-dark: #68adf7;
+    --input-background-light: #fff;
+    --input-background-dark: #1a1919;
+    --input-border-light: #dfcaca;
+    --input-border-dark: #555;
+}
+
+body.light {
+    background-color: var(--background-light);
+    color: var(--text-light);
+}
+
+body.dark {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+}
+
+button {
+    background-color: var(--button-light);
+    color: var(--text-dark);
+}
+
+body.dark button {
+    background-color: var(--button-dark);
+    color: var(--text-light);
+}
+
+/* Add other global styles here */
